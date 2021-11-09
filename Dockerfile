@@ -19,21 +19,21 @@ RUN truncate -s0 /tmp/preseed.cfg; \
 RUN apt-get update && \
     apt-get install -y \
         build-essential \
-		curl \
+	curl \
         git \
         bison \
         flex \
         libpcap-dev \
         libtool \
         libtool-bin \
-		autoconf \
-		pkg-config \
-		automake \
-		autogen \
-		libjson-c-dev \
-		libnuma-dev \
-		libgcrypt20-dev \
-		libpcre2-dev
+	autoconf \
+	pkg-config \
+	automake \
+	autogen \
+	libjson-c-dev \
+	libnuma-dev \
+	libgcrypt20-dev \
+	libpcre2-dev
 		
 
 ## cleanup of files from setup
